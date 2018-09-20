@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Таблиці</title>
+    <link rel="stylesheet" href="tablestyles.css">
+</head>
+<body>
+<table class="t1">
+    <caption>Добування дорогоцінного каміння</caption>
+    <colgroup>
+        <col span="1" style="width: 140px">
+        <col span="4" style="width: 70px">
+    </colgroup>
+    <tr>
+        <th></th>
+        <th>2010</th>
+        <th>2012</th>
+        <th>2014</th>
+        <th>2016</th>
+    </tr>
+    <tr>
+        <td>Сапфіри</td>
+        <td rowspan="2">1483</td>
+        <td>4532</td>
+        <td>6743</td>
+        <td>1488</td>
+    </tr>
+    <tr>
+        <td>Рубіни</td>
+        <td>3835</td>
+        <td>7482</td>
+        <td>1337</td>
+    </tr>
+    <tr>
+        <td>Алмази</td>
+        <td>683</td>
+        <td colspan="2" style="text-align: center;">238</td>
+        <td>228</td>
+    </tr>
+</table>
+<hr/>
+
+<table class="t2">
+
+    <tr>
+        <th>№ п/п</th>
+        <th>Назва</th>
+        <th>Ціна, грн.</th>
+        <th>Колір</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Олівець</td>
+        <td>20,00</td>
+        <td>Зелений</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Лінійка 20 см</td>
+        <td>30,00</td>
+        <td>Сірий</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Фломастер</td>
+        <td>20,00</td>
+        <td>Фіолетовий</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Ручка</td>
+        <td>20,00</td>
+        <td>Синій</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Олівець</td>
+        <td>20,00</td>
+        <td>Червоний</td>
+    </tr>
+</table>
+<hr/>
+<table class="t3">
+    <colgroup>
+        <col span="1" style="width: 40px;">
+        <col span="2" style="width: 160px">
+        <col span="3" style="width: 140px">
+        <col span="4" style="width: 120px">
+    </colgroup>
+    <tr>
+        <th>№</th>
+        <th>ПІБ</th>
+        <th>Адреса</th>
+        <th>Телефон</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>ПІБ1</td>
+        <td>Адреса1</td>
+        <td>111111</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>ПІБ2</td>
+        <td>Адреса2</td>
+        <td>222222</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>ПІБ3</td>
+        <td>Адреса3</td>
+        <td>333333</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>ПІБ4</td>
+        <td>Адреса4</td>
+        <td>444444</td>
+    </tr>
+    <tr>
+        <th colspan="3" style="text-align: right;">Загальна кількість</th>
+        <th>4</th>
+    </tr>
+</table>
+<hr/>
+<table class="t1" width="500px" >
+    <tr>
+        <th rowspan="2">#</th>
+        <th colspan="2">теги</th>
+    </tr>
+    <tr>
+        <td  width="20%">тег</td>
+        <td>значення</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>p</td>
+        <td rowspan="4">для текста</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>a</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>b</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>i</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>table</td>
+        <td>таблиця</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>tr</td>
+        <td>ряд</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>td</td>
+        <td rowspan="2">ячейки таблиці</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>th</td>
+
+    </tr>
+</table>
+<hr/>
+<table width="500px" class="t5">
+
+
+    <tr>
+        <td colspan="5" height="100px">Шапка</td>
+    </tr>
+
+    <tr>
+        <td>Меню</td>
+        <td>Меню</td>
+        <td>Меню</td>
+        <td>Меню</td>
+        <td>Меню</td>
+    </tr>
+
+    <tr>
+        <td colspan="2" height="300px">Новини</td>
+        <td colspan="3" height="300px">Контент</td>
+    </tr>
+
+</table>
+
+<hr/>
+
+<table width="500px" class="textcolor">
+    <tr>
+        <td height="80px" bgcolor="#102202" >Шапка</td>
+        <td rowspan="2" bgcolor="#bedea5" >Контент</td>
+    </tr>
+
+
+    <tr>
+
+        <td height="300px" bgcolor="#c0bd67">Меню</td>
+    </tr>
+    <tr>
+        <td colspan="2" bgcolor="#102202">Низ сайту</td>
+    </tr>
+</table>
+<hr/>
+
+<table class="t7">
+    <tr>
+        <td rowspan="3" height="500px" width="100px"> новости </td>
+        <td height="20%" width="200px" bgcolor="#7b2de6"> ШАПКА </td>
+    </tr>
+    <tr>
+        <td height="10%" bgcolor="#c9acf1 "> МЕНЮ </td>
+    </tr>
+    <tr>
+        <td height="70%" bgcolor="#e6ce9b"> КОНТЕНТ </td>
+    </tr>
+</table>
+</body>
+</html>
